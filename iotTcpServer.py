@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 
 class IoTTcpServer(TCPServer):
 
-    PORT = 8888
+    PORT = 8080
     clients = dict()
 
     @gen.coroutine
